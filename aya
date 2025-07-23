@@ -6,8 +6,8 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Untill"] = 280,
+		["Limit"] = 100,
+		["Destroy Untill"] = 100,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -176,7 +176,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Webhook = {
-		UrlPet = "https://discord.com/api/webhooks/1386629644140417145/rXZ-L2AWqC2p-dzbGULNBLoKmQiJ7tvUrPIhsFT5DcysdOvid77952-1jVKi4hOiq0qs",
+		UrlPet = "",
 		UrlSeed = "ff",
 		PcName = "hehe baby",
 
