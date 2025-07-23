@@ -17,20 +17,7 @@ getgenv().gagConfig = {
 
     MAX_PLANTS = 10,
     DESTROY_UNTIL_MIN_PLANTS = 10,
-    DELETE_PLANTS_AFTER_MAX = {
-        "carrot", "potato", "tomato", "lettuce", "cabbage", "radish", "beetroot", "onion", "garlic", "corn",
-        "eggplant", "cucumber", "spinach", "pumpkin", "bell pepper", "broccoli", "cauliflower", "zucchini", "chili pepper", "sweet potato",
-        "apple", "banana", "lemon", "orange", "peach", "strawberry", "blueberry", "raspberry", "watermelon", "pineapple",
-        "mango", "cherry", "pear", "grapes", "kiwi", "coconut", "plum", "avocado", "pomegranate", "fig",
-        "sunflower", "rose", "tulip", "daisy", "lavender", "marigold", "orchid", "lily", "peony", "hibiscus",
-        "daffodil", "pansy", "violet", "carnation", "camellia", "basil", "mint", "thyme", "rosemary", "parsley",
-        "oregano", "sage", "cilantro", "chives", "dill", "oak tree", "maple tree", "pine tree", "bamboo", "coffee plant",
-        "tea plant", "aloe vera", "rubber tree", "olive tree", "cocoa tree", "magic bean plant", "rainbow flower", "glow plant",
-        "crystal tree", "fire flower", "ice blossom", "starfruit tree", "golden apple tree", "dream bloom", "candy tree",
-        "mushroom tree", "cloud plant", "bubble flower", "money tree", "poison ivy", "ghost lily", "time flower",
-        "dragonfruit tree", "giant sunflower", "moonlight orchid", "hybrid berry bush", "electric vine",
-        "jellybean plant", "meteor tree", "phantom fern"
-    },
+    DELETE_PLANTS_AFTER_MAX = {},
 
     BUY_EGGS = {
         "Mythical Egg", "Bug Egg", "Bee Egg", "Paradise Egg",
