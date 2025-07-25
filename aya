@@ -135,7 +135,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 35,
+		["Start Delete Pet At"] = 101,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				"Starfish",
