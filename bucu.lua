@@ -14,7 +14,7 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     FAST_LEVEL_PET = true,
 
-    MAX_PLANTS = 250,
+    MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower" },
     
