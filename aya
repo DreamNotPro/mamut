@@ -6,7 +6,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 200,
+		["Limit"] = 100,
 		["Destroy Untill"] = 200,
 
 		["Safe Tree"] = {
