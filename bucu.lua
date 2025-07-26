@@ -41,7 +41,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG", 
     NOTIFY_PETS = { "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red fox", "Spinosaurus"},
-    NOTIFY_PETS_WEIGHT = 10,
+    NOTIFY_PETS_WEIGHT = { ["Nihonzaru"] = 10, ["Tanuki"] = 10, ["Ostrich"] = 10, ["Capybara"] = 10, ["Tanchozuru"] = 10, ["Seal"] = 10, ["Kitsune"] = 10, ["Kappa"] = 10, ["Dilophosaurus"] = 10, ["Bald Eagle"] = 10, ["Spinosaurus"] = 10, ["Brontosaurus"] = 10, ["T-Rex"] = 10, ["Fennec Fox"] = 10, ["Blood Kiwi"] = 10, ["Peacock"] = 10, ["Rooster"] = 10, ["Hamster"] = 2, ["Disco Bee"] = 10, ["Raccoon"] = 10, ["Queen Bee"] = 10, ["Dragonfly"] = 10, ["Butterfly"] = 10, ["Mimic Octopus"] = 10, ["Red Fox"] = 10, ["Chicken Zombie"] = 10, ["Starfish"] = 10 }
     DISCORD_ID = "",
     WEBHOOK_NOTE = "hehe",
     SHOW_WEBHOOK_USERNAME = true,
