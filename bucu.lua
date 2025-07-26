@@ -30,7 +30,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { "Nihonzaru", "Tanuki", "Ostrich", "Capybara", "Tanchozuru", "Seal", "Kitsune", "Kappa", "Dilophosaurus" , "Bald Eagle", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Blood Kiwi", "Peacock", "Rooster", ["Hamster"] = 2, "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", "Starfish"},
-    KEEP_PETS_WEIGHT = { ["Nihonzaru"] = 10, ["Tanuki"] = 10, ["Ostrich"] = 10, ["Capybara"] = 10, ["Tanchozuru"] = 10, ["Seal"] = 10, ["Kitsune"] = 10, ["Kappa"] = 10, ["Dilophosaurus"] = 10, ["Bald Eagle"] = 10, ["Spinosaurus"] = 10, ["Brontosaurus"] = 10, ["T-Rex"] = 10, ["Fennec Fox"] = 10, ["Blood Kiwi"] = 10, ["Peacock"] = 10, ["Rooster"] = 10, ["Hamster"] = 2, ["Disco Bee"] = 10, ["Raccoon"] = 10, ["Queen Bee"] = 10, ["Dragonfly"] = 10, ["Butterfly"] = 10, ["Mimic Octopus"] = 10, ["Red Fox"] = 10, ["Chicken Zombie"] = 10, ["Starfish"] = 10 }
+    KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = { "Starfish", ["Seal"] = 2, ["Koi"] = 2},
