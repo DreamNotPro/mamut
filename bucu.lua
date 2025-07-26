@@ -3,7 +3,7 @@ getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
     CRAFT_EVENT = { "Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg"},
-    BUY_EVENT_SHOP = { "Zen Egg" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Raiju" },
     MAX_EVENT_RESTOCK_SHECKLES = 1000000000,
    
     AUTO_UPDATE_RESTART = true,
