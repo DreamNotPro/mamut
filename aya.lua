@@ -151,6 +151,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 			},
 		},
 		Locked = {
+        		"Corrupted Kodama",
 			"Kodama",
 			"Corrupted Kitsune",
 			"Raiju",
