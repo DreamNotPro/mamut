@@ -145,6 +145,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
+                                ["Capybara"] = 1,
                                 "Starfish",
 				"Seal",
 				["Tanchozuru"] = 1,
