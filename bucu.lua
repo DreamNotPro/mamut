@@ -33,6 +33,7 @@ getgenv().gagConfig = {
 
     KEEP_PETS = {"Corrupted Kodama", "Kodama", "Corrupted Kitsune", "Raiju", ["Starfish"] = 3, "Tanuki", "Ostrich", "Capybara", "Tanchozuru", "Seal", "Kitsune", "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Peacock", "Rooster", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie" },
     KEEP_PETS_WEIGHT = 6,
+    KEEP_PETS_AGE = { ["Starfish"] = 75, ["Capybara"] = 75},
 
     -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = { ["Starfish"] = 5, ["Tanchozuru"] = 1, ["Capybara"] = 2},
