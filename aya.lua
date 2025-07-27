@@ -1,5 +1,5 @@
-task.wait(10) 
-getgenv().ConfigsKaitun = { -- thx config cradit to npk02
+task.wait(5) 
+getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	
 	["Low Cpu"] = true,
@@ -7,8 +7,9 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 200,
-		["Destroy Untill"] = 150,
+		["Limit"] = 270,
+		["Destroy Untill"] = 250,
+
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Bone Blossom",
@@ -74,9 +75,6 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	Events = {
 		["Traveling Shop"] = {
 			"Bee Egg",
-			"Loquat",
-			"Feijoa",
-			"Pitcher Plant",
 		},
 		Craft = {
 			"Anti Bee Egg",
@@ -85,9 +83,20 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 		Shop = {
 			"Zen Egg",
 			"Raiju",
+			["Koi"] = 1,
 		},
-		Restocks_limit = 500000000,
-		MinimumChi = 10
+		["Zen Event"] = {
+			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 1_000_000_000,
+				Minimum_Money = 10_000_000,
+				Minimum_Chi = 200
+			},
+			["Doing"] = {
+				Minimum_Money = 10_000_000, -- minimum money to start play this event
+				First_Upgrade_Tree = 7,
+				Maximum_Chi = 250,
+			}
+		},
 	},
 
 	Gear = {
@@ -122,18 +131,15 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 			"Paradise Egg",
 			"Bee Egg",
 			"Mythical Egg",
-			"Rare Summer Egg",
-			"Common Summer Egg",
-			"Uncommon Egg",
 		},
 		Buy = {
-			"Mythical Egg",
-			"Bug Egg",
 			"Bee Egg",
+			"Oasis Egg",
 			"Paradise Egg",
-			"Uncommon Egg",
-			["Common Summer Egg"] = 20,
-			["Rare Summer Egg"] = 20,
+			"Anti Bee Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
 		}
 	},
 
@@ -141,41 +147,41 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 		["Start Delete Pet At"] = 101,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				"Starfish",
+				["Starfish"] = { 5, 100, 1 },
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-                                ["Capybara"] = 1,
-                                "Starfish",
-				"Seal",
-				["Tanchozuru"] = 1,
+				["Tanchozuru"] = { 1, 75}},
+				["Seal"] = { 1, 75, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
+				["Starfish"] = { 1, 75 },
+				["Koi"] = { 1, 75 },
 			},
 		},
 		Locked = {
-        		"Corrupted Kodama",
-			"Kodama",
+			["Raiju"] = 2,
+			["Corrupted Kodama"] = 5,
+			["Kodama"] = 5,
 			"Corrupted Kitsune",
-			"Raiju",
-			["Starfish"] = 5,
-			["Tanuki"] = 5,
-			["Ostrich"] = 5,
-			["Capybara"] = 5,
-			["Tanchozuru"] = 5,
-			["Seal"] = 5,
+			["Koi"] = 1,
 			"Kitsune",
-			"Bald Eagle",
+			["Kappa"] = 1,
 			"Fennec Fox",
-			"Blood Kiwi",
-			"Peacock",
-			"Rooster",
 			"Disco Bee",
 			"Raccoon",
 			"Queen Bee",
 			"Dragonfly",
 			"Butterfly",
 			"Mimic Octopus",
+			"Brontosaurus",
+			"T-Rex",
+			"Spinosaurus",
+			"Ankylosaurus",
+			"Dilophosaurus",
+			["Capybara"] = 5,
+			["Seal"] = 1,
 			"Red Fox",
-			"Chicken Zombie",
+			["Tanuki"] = 3,
+			["Tanchozuru"] = 5,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -207,7 +213,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 				"Fennec Fox",
 				"Red Fox",
 				"Kitsune",
-                                "Raiju",
+				"Corrupted Kitsune",
 			},
 			Pet_Weight_Noti = true,
 		}
