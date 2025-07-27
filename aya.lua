@@ -1,4 +1,3 @@
-task.wait(5) 
 getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	
@@ -87,12 +86,12 @@ getgenv().ConfigsKaitun = {
 		},
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
-				Max_Restocks_Price = 1000000000,
-				Minimum_Money = 10000000,
-				Minimum_Chi = 200,
+				Max_Restocks_Price = 1_000_000_000,
+				Minimum_Money = 10_000_000,
+				Minimum_Chi = 200
 			},
 			["Doing"] = {
-				Minimum_Money = 10000000, -- minimum money to start play this event
+				Minimum_Money = 10_000_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 7,
 				Maximum_Chi = 250,
 			}
@@ -151,15 +150,16 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 1, 75}},
+				["Tanchozuru"] = { 1, 75},
 				["Seal"] = { 1, 75, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 75 },
 				["Koi"] = { 1, 75 },
 			},
 		},
 		Locked = {
+			["Starfish"] = 5,
 			["Raiju"] = 2,
-			["Corrupted Kodama"] = 5,
+			["Corrupted Kodama"] = 4,
 			["Kodama"] = 5,
 			"Corrupted Kitsune",
 			["Koi"] = 1,
