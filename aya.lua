@@ -1,3 +1,4 @@
+task.wait(10) 
 getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	["Stack Plant"] = true,
 	
@@ -7,8 +8,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
 		["Limit"] = 200,
-		["Destroy Untill"] = 280,
-
+		["Destroy Untill"] = 150,
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Bone Blossom",
@@ -146,7 +146,6 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
                                 "Starfish",
-				"Capybara",
 				"Seal",
 				["Tanchozuru"] = 1,
 			},
