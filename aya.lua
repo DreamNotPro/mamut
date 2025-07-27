@@ -6,7 +6,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 300,
+		["Limit"] = 250,
 		["Destroy Untill"] = 280,
 
 		["Safe Tree"] = {
@@ -74,6 +74,9 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	Events = {
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Loquat",
+			"Feijoa",
+			"Pitcher Plant",
 		},
 		Craft = {
 			"Anti Bee Egg",
@@ -81,9 +84,9 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 		},
 		Shop = {
 			"Zen Egg",
-			"Koi",
+			"Raiju",
 		},
-		Restocks_limit = 1000000000,
+		Restocks_limit = 500000000,
 		MinimumChi = 10
 	},
 
@@ -135,39 +138,43 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 35,
+		["Start Delete Pet At"] = 101,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				"Starfish",
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
-				"Seal",
-				"Koi",
+				"Seal"
+                                "Starfish"
 				"Capybara",
 				"Seal",
 			},
 		},
 		Locked = {
-			["Koi"] = 8,
+			"Kodama",
+			"Corrupted Kitsune",
+			"Raiju",
+			"Starfish",
+			"Tanuki",
+			"Ostrich",
+			["Capybara"] = 5,
+			["Tanchozuru"] = 5,
+			["Seal"] = 5,
 			"Kitsune",
-			"Kappa",
+			"Bald Eagle",
 			"Fennec Fox",
+			"Blood Kiwi",
+			"Peacock",
+			"Rooster",
 			"Disco Bee",
 			"Raccoon",
 			"Queen Bee",
 			"Dragonfly",
 			"Butterfly",
 			"Mimic Octopus",
-			"Brontosaurus",
-			"T-Rex",
-			"Spinosaurus",
-			"Ankylosaurus",
-			"Dilophosaurus",
-			["Capybara"] = 5,
-			["Seal"] = 5,
 			"Red Fox",
-			["Tanchozuru"] = 5,
+			"Chicken Zombie",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -199,6 +206,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 				"Fennec Fox",
 				"Red Fox",
 				"Kitsune",
+                                "Raiju",
 			},
 			Pet_Weight_Noti = true,
 		}
