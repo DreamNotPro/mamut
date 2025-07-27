@@ -18,7 +18,7 @@ getgenv().gagConfig = {
     FAST_LEVEL_PET = true,
 
     MAX_PLANTS = 250,
-    DESTROY_UNTIL_MIN_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
     DELETE_PLANTS_AFTER_MAX = { "Strawberry", "Blueberry", "Corn", "Tomato", "Daffodil", "Apple", "Coconut" },
     
     BUY_EGGS = {"Mythical Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Uncommon Egg", ["Common Summer Egg"] = 20, ["Rare Summer Egg"] = 20},
