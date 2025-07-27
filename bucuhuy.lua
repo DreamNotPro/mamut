@@ -3,8 +3,8 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
-    BUY_TRAVELING_MERCHANT = { "Bee Egg"},
-    BUY_EVENT_SHOP = { "Zen Egg", "Koi"},
+    BUY_TRAVELING_MERCHANT = { "Bee Egg" },
+    BUY_EVENT_SHOP = { "Zen Egg" },
     MAX_EVENT_RESTOCK_SHECKLES = 1000000000,
     
     -- General:
@@ -32,12 +32,12 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { ["Koi"] = 8, "Kitsune", "Kappa", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Spinosaurus", "Ankylosaurus", "Dilophosaurus", "Capybara", "Seal", "Red Fox", "Tanchozuru"},
+    KEEP_PETS = { ["Kitsune", "Kappa", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Spinosaurus", "Ankylosaurus", "Dilophosaurus", "Capybara", "Seal", "Red Fox", "Tanchozuru"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 50,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Koi", "Seal", "Starfish", "Tanchozuru", "Capybara"},
+    EQUIP_PETS = { "Seal", "Starfish", "Tanchozuru", "Capybara"},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
