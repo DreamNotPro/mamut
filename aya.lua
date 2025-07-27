@@ -176,7 +176,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Webhook = {
-		UrlPet = "",
+		UrlPet = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG",
 		UrlSeed = "ff",
 		PcName = "hehe baby",
 
