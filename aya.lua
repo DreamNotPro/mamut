@@ -6,8 +6,8 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 100,
-		["Destroy Untill"] = 10,
+		["Limit"] = 300,
+		["Destroy Untill"] = 280,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -135,48 +135,39 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 101,
+		["Start Delete Pet At"] = 35,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				"Starfish",
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
-				"Starfish",
+				"Seal",
 				"Koi",
 				"Capybara",
 				"Seal",
 			},
 		},
 		Locked = {
-                "Nihonzaru",
-                "Tanuki",
-                "Ostrich",
-                "Capybara",
-                "Tanchozuru",
-                "Seal",
-                "Kitsune",
-                "Kappa",
-                "Dilophosaurus",
-                "Bald Eagle",
-                "Spinosaurus",
-                "Brontosaurus",
-                "T-Rex",
-                "Fennec Fox",
-                "Blood Kiwi",
-                "Peacock",
-                "Rooster",
-                ["Hamster"] = 2,
-                "Disco Bee",
-                "Raccoon",
-                "Queen Bee",
-                "Dragonfly",
-                "Butterfly",
-                "Mimic Octopus",
-                "Red Fox",
-                "Chicken Zombie",
-                "Starfish",
-
+			["Koi"] = 8,
+			"Kitsune",
+			"Kappa",
+			"Fennec Fox",
+			"Disco Bee",
+			"Raccoon",
+			"Queen Bee",
+			"Dragonfly",
+			"Butterfly",
+			"Mimic Octopus",
+			"Brontosaurus",
+			"T-Rex",
+			"Spinosaurus",
+			"Ankylosaurus",
+			"Dilophosaurus",
+			["Capybara"] = 5,
+			["Seal"] = 5,
+			"Red Fox",
+			["Tanchozuru"] = 5,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -185,7 +176,7 @@ getgenv().ConfigsKaitun = { -- thx config cradit to npk02
 	},
 
 	Webhook = {
-		UrlPet = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG",
+		UrlPet = "",
 		UrlSeed = "ff",
 		PcName = "hehe baby",
 
