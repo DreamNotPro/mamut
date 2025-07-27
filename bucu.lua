@@ -31,6 +31,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { "Corrupted Kitsune", "Raiju", "Starfish", "Tanuki", "Ostrich", "Capybara", "Tanchozuru", "Seal", "Kitsune", "Kappa" , "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Peacock", "Rooster", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" }
     KEEP_PETS_WEIGHT = 6,
 
     -- EQUIP_PETS Priority (Left -> Right)
@@ -41,7 +42,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1292114608081080412/w2J3ifJ0jlqQNQsODk-Nq8ItCv_AmYhmwlHaIoSdMcSaF45N2baGTV6G4Tb6WUMHlFTG", 
-    NOTIFY_PETS = { "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red fox", "Spinosaurus"},
+    NOTIFY_PETS = { "Raiju","Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red fox", "Spinosaurus"},
     NOTIFY_PETS_WEIGHT = 6,
     DISCORD_ID = "473755357274046464",
     WEBHOOK_NOTE = "hehe",
