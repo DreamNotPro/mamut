@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Primal Egg"},
-    BUY_EVENT_SHOP = { "Zen Egg", "Koi", "Raiju" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Koi"},
     MAX_EVENT_RESTOCK_SHECKLES = 1000000000,
     PLACE_ALL_EVENT_STAFF = true,
     FOCUS_KITSUNE_NPC = true,
