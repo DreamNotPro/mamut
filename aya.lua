@@ -174,13 +174,8 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Seal"] = { 2, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
-				["Starfish"] = { 2, 70 },
-				["Koi"] = { 1, 70 },
-				["Tanchozuru"] = { 1, 70 },
+				["Starfish"] = { 7, 75 },
 				["Capybara"] = { 1, 70 },
-				["Blood Kiwi"] = { 5, 70 },
-				["Rooster"] = {5,70 },
 			},
 		},
 		Locked_Pet_Age = 2, -- pet that age > 60 will lock
