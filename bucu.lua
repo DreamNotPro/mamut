@@ -30,7 +30,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = {"Corrupted Kodama", ["Kodama"] = 5, "Corrupted Kitsune", "Raiju", ["Starfish"] = 5, "Tanchozuru", "Kitsune", "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Rooster", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie" },
+    KEEP_PETS = {"Corrupted Kodama", ["Kodama"] = 5, "Corrupted Kitsune", "Raiju", ["Starfish"] = 5, ["Tanchozuru"] = 3, "Kitsune", "Bald Eagle", "Fennec Fox", "Blood Kiwi", "Rooster", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie" },
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = { ["Starfish"] = 75, ["Capybara"] = 75},
 
