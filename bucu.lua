@@ -1,4 +1,4 @@
-wait(5)
+wait(15)
 setfpscap(2)
 getgenv().gagConfig = {
     SCRIPT_KEY = script_key,
@@ -51,6 +51,7 @@ getgenv().gagConfig = {
     SHOW_WEBHOOK_USERNAME = true,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
 
 
 
