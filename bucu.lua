@@ -43,11 +43,12 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = { "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Starfish"},
     NOTIFY_PETS_WEIGHT = 6,
-    DISCORD_ID = {"1127942194955812994", "1217063951104475170"}
+    DISCORD_ID = "1127942194955812994"
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
 
 
 
