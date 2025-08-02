@@ -48,4 +48,4 @@ getgenv().gagConfig = {
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
 } 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/18f68a241a8acc1191c28d9a76d67fe3.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
