@@ -17,7 +17,7 @@ getgenv().gagConfig = {
 
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower" },
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Daffodil", "Orange Tulip", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Cacao", "Bamboo", "Coconut" },
     
     BUY_EGGS = {"Mythical Egg", "Bug Egg", "Bee Egg", "Paradise Egg", ["Common Summer Egg"] = 20, ["Rare Summer Egg"] = 20},
     PLANT_EGGS = { "Gourmet Egg", "Zen Egg", "Anti Bee Egg", "Primal Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg" },
@@ -48,5 +48,6 @@ getgenv().gagConfig = {
     SHOW_WEBHOOK_USERNAME = false,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
 
 
