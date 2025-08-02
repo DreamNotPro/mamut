@@ -45,9 +45,10 @@ getgenv().gagConfig = {
     NOTIFY_PETS_WEIGHT = 6,
     DISCORD_ID = "975746409007579207",
     WEBHOOK_NOTE = "pvt",
-    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_USERNAME = false,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
 
 
 
