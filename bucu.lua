@@ -4,7 +4,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Zen Egg" },
-    MAX_EVENT_RESTOCK_SHECKLES = 7000000000,
+    MAX_EVENT_RESTOCK_SHECKLES = 2000000000,
     PLACE_ALL_EVENT_STAFF = true,
    
     AUTO_UPDATE_RESTART = true,
@@ -50,3 +50,4 @@ getgenv().gagConfig = {
     SHOW_WEBHOOK_USERNAME = true,
 } 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
