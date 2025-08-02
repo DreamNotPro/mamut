@@ -1,4 +1,4 @@
-wait(15)
+wait(10)
 script_key="GMyqZfwglsTgGOMQwEcdfTFNjOvRZhQc";
 setfpscap(2)
 getgenv().gagConfig = {
